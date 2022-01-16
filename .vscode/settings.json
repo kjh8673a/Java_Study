@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "01 입출력과 사칙연산\\src"
+        "01 입출력과 사칙연산\\src",
+        "02 if문\\src"
         
     ]
 }
