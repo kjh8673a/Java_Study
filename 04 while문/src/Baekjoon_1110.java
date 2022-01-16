@@ -23,10 +23,10 @@ public class Baekjoon_1110 {
         int i = 0;
         int tmp = n;
         while (i >= 0) {
-            n = (n%10)*10 + (n/10 +n%10)%10;
+            n = (n % 10) * 10 + (n / 10 + n % 10) % 10;
             i++;
 
-            if(tmp == n) {
+            if (tmp == n) {
                 break;
             }
         }
