@@ -1,7 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "실패\\src",
         "01 입출력과 사칙연산\\src",
-        "02 if문\\src"
-        
+        "02 if문\\src",
+        "03 for문\\src",
+        "04 while문\\src",
+        "04 while문\\src"
     ]
 }
