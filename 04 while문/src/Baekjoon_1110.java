@@ -17,19 +17,23 @@ import java.util.Scanner;
 public class Baekjoon_1110 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = sc.nextInt(); // 숫자 n입력
         sc.close();
 
         int i = 0;
-        int tmp = n;
+        int tmp = n; // 초기 n값을 tmp에 저장
         while (i >= 0) {
+            // 일의자리숫자(n을 10으로 나눈 나머지)에 10을 곱해서 새로운 십의자리숫자로 만든다.
+            // n에서 "십의자리숫자(n/10)+일의자리숫자(n%10)"의 일의자리숫자를 새로운 일의자리 숫자로 한다.
             n = (n % 10) * 10 + (n / 10 + n % 10) % 10;
             i++;
-
+            
+            // 초기 n값(tmp)과 새로운 n값이 같다면 while문 끝
             if (tmp == n) {
                 break;
             }
         }
+        // 반복 횟수 i를 출력
         System.out.println(i);
 
     }

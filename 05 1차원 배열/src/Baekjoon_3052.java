@@ -15,14 +15,16 @@ public class Baekjoon_3052 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // 수 10개를 입력받아 각각 42로 나눈 나머지를 배열에 넣는다.
         int[] arr = new int[10];
-
         for (int i = 0; i < 10; i++) {
             int a = sc.nextInt();
             arr[i] = a % 42;
         }
         sc.close();
 
+        // 초기값을 10으로 두고(모든 수가 다 다를 때)
+        // arr[j]와 arr[j+k]를 비교하여 같을 경우 count에서 1을 빼주고 break.
         int count = 10;
         for (int j = 0; j < arr.length; j++) {
             for(int k = 1; k < arr.length-j; k++) {

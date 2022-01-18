@@ -29,17 +29,22 @@ public class Baekjoon_8958 {
         sc.close();
 
         for (int j = 0; j < str.length; j++) {
+             // X기준으로 자르기 OOXXOXXOOO는 {"OO", "", "O", "", "OOO"}로 잘려서 배열에 들어감
             String[] ox = str[j].split("X");
-            System.out.println(ox[0]);
-            System.out.println(ox[1]);
-            System.out.println(ox[2]);
-            System.out.println(ox[3]);
-            System.out.println(ox[4]);
-
+            // System.out.println(ox.length);
+            int sum = 0;
+            for (int k = 0; k < ox.length; k++) {
+                // ox배열의 각 요소들을 string으로 해서 길이구하기
+                String s = ox[k];
+                int s_len = s.length();
+                // ox[k]의 길이가 0이 될때까지 sum에 길이(s_len)을 더해주고 s_len에서 1빼서 다시 while문 반복
+                // ox[0] = OO 이므로 s_len = 2 이다. while문을 통해 sum = 2 + 1 실행 후 ox[1]로 while문 다시 반복
+                while(s_len > 0) {
+                    sum += s_len;
+                    s_len--;
+                }
+            }
+            System.out.println(sum);
         }
-        
-        // for (int h = 0; h < arr.length; h++) {
-        //     System.out.print(arr[h] + " ");
-        // }
     }
 }

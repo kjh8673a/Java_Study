@@ -20,11 +20,14 @@ public class Baekjoon_4344 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int c = sc.nextInt(); // 테스트 케이스의 개수 입력
-        double[] rate = new double[c]; // 각 테스트 케이스 마다 비율계산하여 배열에 저장
+        // 테스트 케이스의 개수 입력
+        int c = sc.nextInt(); 
+        // 각 테스트 케이스 마다 비율계산하여 배열에 저장
+        double[] rate = new double[c]; 
 
         for (int i = 0; i < c; i++) {
-            int n = sc.nextInt(); // 각 테스트 케이스 마다 학생의 수 n 입력
+            // 각 테스트 케이스 마다 학생의 수 n 입력
+            int n = sc.nextInt(); 
             double[] arr = new double[n];
             double sum = 0;
             for (int j = 0; j < n; j++) {
@@ -33,14 +36,16 @@ public class Baekjoon_4344 {
                 sum += s; // 점수 합계 계산
             }
             double avg = sum / n; // 평균
-            
+
+            // 평균보다 점수가 높은 사람 몇명인지
             double people = 0;
-            for (int k = 0; k < arr.length; k++) { // 평균보다 점수가 높은 사람 몇명인지
+            for (int k = 0; k < arr.length; k++) { 
                 if (arr[k] > avg) {
                     people += 1;
                 }
             }
-
+            
+            // 
             double r = (people/arr.length)*100; 
             rate[i] = r;
         }

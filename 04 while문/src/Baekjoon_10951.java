@@ -11,3 +11,4 @@
 public class Baekjoon_10951 {
 
 }
+// hasNext() : 다음 입력에 입력된 값이 있다면 true 없거나 ctrlz 입력시 false

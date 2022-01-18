@@ -16,17 +16,18 @@ public class Baekjoon_2562 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        // 숫자 9개 입력해서 배열에 넣기 arr[0] ~ arr[8]
         int[] arr = new int[9];
-
         for (int i = 0; i < 9; i++) {
             int a = sc.nextInt();
             arr[i] = a;
         }
         sc.close();
 
+        // 최댓값을 0으로 설정해놓고 arr[0]부터 순서대로 비교.
+        // arr[j]은 j+1번째 수. k = j+1 으로 설정하고 k값 출력.
         int max = 0;
         int k = 0;
-
         for (int j = 0; j < arr.length; j++) {
             if (arr[j] > max) {
                 max = arr[j];

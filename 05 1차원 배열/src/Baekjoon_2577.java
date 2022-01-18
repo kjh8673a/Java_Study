@@ -19,21 +19,28 @@ public class Baekjoon_2577 {
         sc.close();
 
         int n = a * b * c;
-        int length = (int)(Math.log10(n)+1); // int의 자릿수 구하기
+
+        // n의 자릿수 구하기
+        String str = Integer.toString(n);
+        int length = str.length();
+
         int[] arr = new int[length];
         int i = 0;
-
         while (n > 0) {
+            // 일의자리부터 차례대로 배열에 넣기
+            // 배열에 넣고 n/10으로 일의자리숫자 제거해주고 다시 while문 돌리기
             int s = n%10;
-            arr[i] = s; // 일의자리부터 차례대로 배열에 넣기
+            arr[i] = s;
             i++;
             n = n/10;
         }
-        int[] count = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; // count배열: count[0]은 0의 개수 ~ count[9]는 9의 개수
+        
+        int[] count = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; // 0의 개수 ~ 9의 개수
         for (int j = 0; j < arr.length; j ++) {
-            for (int k = 0; k < count.length; k++) {
+             // arr배열의 값이 k(0~9)와 같을 때 마다 count[k] 1씩 증가
+            for (int k = 0; k < 10; k++) {
                 if (arr[j] == k) {
-                    count[k] += 1; // arr배열의 값이 k(0~9)와 같을 때 마다 count[k] 1씩
+                    count[k] += 1;
                 } 
             }
         }
