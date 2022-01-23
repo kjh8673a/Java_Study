@@ -28,8 +28,8 @@ public class Baekjoon_15596 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt();
-        int arr[] = new int[n];
+        int n = sc.nextInt(); // 정수 몇 개를 저장할지
+        int arr[] = new int[n]; // 정수 n개가 저장되어 있는 배열
 
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
