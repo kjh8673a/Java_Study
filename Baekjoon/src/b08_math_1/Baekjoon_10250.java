@@ -39,7 +39,7 @@ public class Baekjoon_10250 {
                 floor = n % h;
             }
 
-            System.out.printf("%d%02d\n", floor, room);
+            System.out.printf("%d%02d\n", floor, room); // 룸 번호만 %02d로 표현
         }
         sc.close();
     }
