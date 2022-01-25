@@ -6,4 +6,16 @@
 05 - Baekjoon_02577 +
 05 - Baekjoon_03052 +
 05 - Baekjoon_08958 - charAt
-05 - Baekjoon_04344
+05 - Baekjoon_04344 +
+
+
+<22.01.25>
+06 - Baekjoon_04673  함수 while문으로 d(n)이 10000을 넘는 것을 0으로 처리하면
+06 - Baekjoon_01065 +
+07 - Baekjoon_01316  substring contains
+07 - Baekjoon_01157 +
+07 - Baekjoon_02908  stringbuilder.append reverse toString / stringtokenizer / stringbuffer reverse
+    08 - Baekjoon_02869 i에 나중에 1을 더해주지말고 처음부터 i-1로 계산하면
+08 - Baekjoon_01193 +
+08 - Baekjoon_02839  while
+    08 - Baekjoon_02292 +

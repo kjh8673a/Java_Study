@@ -24,9 +24,10 @@ public class Baekjoon_02869 {
         int v = sc.nextInt(); // 나무의 높이
         sc.close();
 
+        // v - (a-b)i <= a
         int i = (v - a) / (a - b);
 
-        if (a == v) { // a와 나무 높이 같을때 -> 1일 (i값은 0이기때문에 따로 취급)
+        if (a == v) { // a와 나무 높이 같을때 -> 1일 (i값이 0이기때문에 따로 취급)
             System.out.println(1);
         } else if (i < 1) { // 계산값이 0.xxxxx일때 i값은 0이지만 하루만에 올라갈 수 없다
             System.out.println(i + 2);
