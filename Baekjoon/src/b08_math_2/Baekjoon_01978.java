@@ -25,6 +25,7 @@ public class Baekjoon_01978 {
         for (int i = 0; i < n; i++) {
             int a = sc.nextInt();
             if (a == 1) { // 1은 소수가 아니다
+                cnt--;
                 continue;
             } else {
                 for (int j = 2; j <= Math.sqrt(a); j++) { // a의 제곱근까지만 반복

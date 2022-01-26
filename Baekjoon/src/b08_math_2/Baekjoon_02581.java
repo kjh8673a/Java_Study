@@ -28,7 +28,7 @@ public class Baekjoon_02581 {
             m = 2;
         }
 
-        int sosu[] = new int[n-m+1];
+        int sosu[] = new int[n-m+1]; // m이상 n이하
 
         for (int i = m; i <= n; i++) {
             for (int j = 2; j <= Math.sqrt(i); j++) { // i의 제곱근까지만 반복
