@@ -11,6 +11,7 @@ import java.util.Scanner;
 풀이)
 
 소수 : 1과 자기자신으로만 나누어떨어진다.
+n~m범위의 소수
 
 */
 
