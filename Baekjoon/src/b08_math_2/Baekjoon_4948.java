@@ -23,7 +23,7 @@ public class Baekjoon_4948 {
         while(true) {
             int n = sc.nextInt();
             int cnt = n; // n보다 크고 2n보다 작은 자연수는 n개
-            if(n == 0) break;
+            if(n == 0) break; // n이 입력되면 종료
 
             for (int i = n+1; i <= 2*n; i++) {
                 if (i == 1) { // 1은 소수가 아니다
