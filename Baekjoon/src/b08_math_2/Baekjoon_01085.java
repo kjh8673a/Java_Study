@@ -18,7 +18,7 @@ import java.util.Scanner;
 math함수 써보기
 
 */
-public class Baekjoon_1085 {
+public class Baekjoon_01085 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

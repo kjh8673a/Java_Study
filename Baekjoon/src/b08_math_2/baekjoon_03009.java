@@ -17,7 +17,7 @@ import java.util.Scanner;
 
 */
 
-public class baekjoon_3009 {
+public class baekjoon_03009 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

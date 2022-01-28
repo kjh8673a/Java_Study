@@ -16,7 +16,7 @@ n보다 크고, 2n보다 작거나 같은 소수
 
 */
 
-public class Baekjoon_4948 {
+public class Baekjoon_04948 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
