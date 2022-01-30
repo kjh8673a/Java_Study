@@ -1,16 +1,47 @@
 package b04_while;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
 /*
 04 while문
 문제번호: 10951
 제목: A+B - 4
-문제: 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
-    입력은 여러 개의 테스트 케이스로 이루어져 있다.
-    각 테스트 케이스는 한 줄로 이루어져 있으며, 각 줄에 A와 B가 주어진다. (0 < A, B < 10)
-    각 테스트 케이스마다 A+B를 출력한다.
+풀이) 
+hasNext() : 다음 입력에 입력된 값이 있다면 true 없거나 ctrl+z 입력시 false
 */
 
-public class Baekjoon_10951 {
+// public class Baekjoon_10951 {
+//     public static void main(String[] args) {
+        
+//         Scanner sc = new Scanner(System.in);
 
+//         while(sc.hasNextInt()) { // hasNextInt(): 입력값이 정수일 경우 true반환, 정수가 아닐경우 예외 -> false반환
+//             int a = sc.nextInt();
+//             int b = sc.nextInt();
+//             System.out.println(a+b);
+//         }
+//         sc.close();
+//     }
+// }
+
+public class Baekjoon_10951 {
+    public static void main(String[] args) throws IOException {
+        
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
+        StringTokenizer st;
+        String str;
+
+        while((str=br.readLine()) != null) { // readLine() -> throws IOException 해줘야한다
+            st = new StringTokenizer(str," ");
+            int a = Integer.parseInt(st.nextToken()); // StringTokenizer사용하면 문자열로 반환한다 -> int형으로 변환해줘야한다(Integer.parseInt)
+            int b = Integer.parseInt(st.nextToken());
+            sb.append(a+b).append("\n");
+        }
+        System.out.println(sb);
+    }
 }
-// hasNext() : 다음 입력에 입력된 값이 있다면 true 없거나 ctrlz 입력시 false
