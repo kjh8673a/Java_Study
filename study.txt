@@ -15,7 +15,7 @@
 07 - Baekjoon_01316 - substring contains
 07 - Baekjoon_01157 
 07 - Baekjoon_02908 - stringbuilder.append reverse toString / stringtokenizer / stringbuffer reverse
-08 - Baekjoon_02869 - i에 나중에 1을 더해주지말고 처음부터 i-1로 계산하면
+08 - Baekjoon_02869 - bufferedreader / i에 나중에 1을 더해주지말고 처음부터 i-1로 계산하면
 08 - Baekjoon_01193 
 08 - Baekjoon_02839 - while
 08 - Baekjoon_02292 
