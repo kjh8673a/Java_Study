@@ -1,4 +1,4 @@
-package b08_math_2;
+package b09_math_2;
 
 import java.util.Scanner;
 
