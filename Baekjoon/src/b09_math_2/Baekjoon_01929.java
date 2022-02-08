@@ -11,7 +11,7 @@ import java.util.Scanner;
 풀이)
 
 소수 : 1과 자기자신으로만 나누어떨어진다.
-n~m범위의 소수
+m~n범위의 소수
 
 */
 
@@ -27,7 +27,7 @@ public class Baekjoon_01929 {
             m = 2;
         }
 
-        int sosu[] = new int[n-m+1];
+        int sosu[] = new int[n-m+1]; // n-m+1개 배열
 
         for (int i = m; i <= n; i++) {
             for (int j = 2; j <= Math.sqrt(i); j++) { // i의 제곱근까지만 반복

@@ -6,3 +6,6 @@ Baekjoon_02869 - 08 기본 수학 1
 
 Baekjoon_02447 - 10 재귀
 Baekjoon_11729 - 10 재귀
+
+Programmers_42746
+Programmers_42839

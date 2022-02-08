@@ -17,26 +17,35 @@ n = 3 ->
 
 public class Baekjoon_02447 {
     
-    static void star(int n, int x, int y) {
-        if (n > 3) {
-            star(n/3, x, y);
-        } else if (n == 3) {
-            for (x = 0; x < 3; x++) {
-                for(y = 0; y < 3; y++) {
-                    if(x == 1 && y == 1) {
-                        System.out.print(" ");
-                    } else {
-                        System.out.print("*");
-                    }
+    static void star(int n) {
+
+        if (n == 1) {
+            System.out.print("*");
+        }
+        else {
+            for(int i = 0; i < 9; i++) {
+                if(i == 4) {
+                    System.out.print(" ");
+                } else if ((i+1) % 3 == 0) {
+                    System.out.println("*");
+                } else {
+                    System.out.print("*");
                 }
-                System.out.println();
             }
         }
-        
+
     }
 
     public static void main(String[] args) {
         
-        star(9, 0, 0);
+        for(int i = 0; i < 9; i++) {
+            if(i == 4) {
+                System.out.print(" ");
+            } else if ((i+1) % 3 == 0) {
+                System.out.println("*");
+            } else {
+                System.out.print("*");
+            }
+        }
     }
 }

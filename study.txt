@@ -18,4 +18,14 @@
 08 - Baekjoon_02869 - bufferedreader / i에 나중에 1을 더해주지말고 처음부터 i-1로 계산하면
 08 - Baekjoon_01193 
 08 - Baekjoon_02839 - while
-08 - Baekjoon_02292 
+08 - Baekjoon_02292
+
+<22.02.03>
+09 - Baekjoon_11653
+09 - Baekjoon_01929
+09 - Baekjoon_04948
+09 - Baekjoon_09020 - 에라토스~~
+09 - Baekjoon_03053
+09 - Baekjoon_01002
+10 - Baekjoon_11729 
+10 - Baekjoon_02447 - 프로그래머스 67256
