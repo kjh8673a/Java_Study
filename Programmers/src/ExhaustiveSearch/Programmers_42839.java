@@ -1,3 +1,4 @@
+package ExhaustiveSearch;
 /*
 완전탐색
 문제번호: 42839

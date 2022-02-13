@@ -1,3 +1,4 @@
+package Sorting;
 /*
 정렬
 문제번호: 42746
