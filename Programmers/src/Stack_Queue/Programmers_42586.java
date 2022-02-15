@@ -24,24 +24,24 @@ public class Programmers_42586 {
 
     public static int[] solution(int[] progresses, int[] speeds) {
 
-        int[] done = new int[100];
+        int[] done = new int[100]; // 개발완료 day 배열
         int day = 0;
 
         for (int i = 0; i < progresses.length; i++) {
-            while (progresses[i] + day * speeds[i] < 100) {
+            while (progresses[i] + day * speeds[i] < 100) { // 현재 + 속도*d가 100보다 작을때마다 day++
                 day++;
             }
-            done[day]++;
+            done[day]++; // 
         }
 
         int cnt = 0;
-        for (int i : done) {
+        for (int i : done) { // 배열에서 0이 아닌 값 갯수 구하기
             if (i > 0) {
                 cnt++;
             }
         }
 
-        int[] answer = new int[cnt];
+        int[] answer = new int[cnt]; // 구한 cnt가 answer배열의 길이가 된다
         int idx = 0;
         for (int i : done) {
             if (i > 0) {

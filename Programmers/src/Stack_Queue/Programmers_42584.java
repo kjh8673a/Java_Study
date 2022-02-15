@@ -25,11 +25,11 @@ public class Programmers_42584 {
         int[] answer = new int[prices.length];
 
         for(int i = 0; i < prices.length; i++) {
-            if(i == prices.length-1) {
+            if(i == prices.length-1) { // 배열의 마지막값은 0
                 answer[prices.length-1] = 0;
             } else {
-                for (int j = i+1; j < prices.length; j++) {
-                    if (prices[i] > prices[j]) {
+                for (int j = i+1; j < prices.length; j++) { // 자기보다 작은 값을 만나면 기간은 j-i로하고
+                    if (prices[i] > prices[j]) {            // 끝까지 자기보다 작은 값이 없으면 마지막-i
                         answer[i] = j-i;
                         break;
                     }else {
