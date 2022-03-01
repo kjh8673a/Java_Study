@@ -12,7 +12,7 @@ arr[i] > arr[j] -> 가격이 떨어지지 않은 기간 : j-i
 
 */
 
-public class Programmers_42584 {
+public class Programmers_StockPrice {
     public static void main(String[] args) {
         int[] prices = { 1, 2, 3, 2, 3 };
 

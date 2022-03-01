@@ -14,7 +14,7 @@ keySet
 
 */
 
-public class Programmers_42576 {
+public class Programmers_NotFinishPlayer {
     public static void main(String[] args) {
         String[] participant = {"leo", "kiki", "eden"};
         String[] completion = {"eden", "kiki"};

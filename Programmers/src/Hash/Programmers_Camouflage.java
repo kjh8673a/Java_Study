@@ -12,7 +12,7 @@ getOrDefault
 keySet
 */
 
-public class Programmers_42578 {
+public class Programmers_Camouflage {
     public static void main(String[] args) {
         String[][] clothes = {{"yellowhat", "headgear"}, {"bluesunglasses", "eyewear"}, {"green_turban", "headgear"}};
 
@@ -20,6 +20,7 @@ public class Programmers_42578 {
         
         System.out.println(answer);
     }
+    
     public static int solution(String[][] clothes) {
         int answer = 1;
 

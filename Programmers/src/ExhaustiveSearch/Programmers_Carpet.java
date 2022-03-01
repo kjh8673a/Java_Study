@@ -14,7 +14,7 @@ import java.util.Arrays;
 세로 < 가로
 */
 
-public class Programmers_42842 {
+public class Programmers_Carpet {
     public static void main(String[] args) {
         int brown = 24;
         int yellow = 24;

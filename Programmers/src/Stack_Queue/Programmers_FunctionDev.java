@@ -11,7 +11,7 @@ package Stack_Queue;
 
 
 */
-public class Programmers_42586 {
+public class Programmers_FunctionDev {
 
     public static void main(String[] args) {
         int[] progresses = { 93, 30, 55 };

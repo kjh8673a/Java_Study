@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 */
 
-public class Programmers_42840 {
+public class Programmers_MockExam {
     public static void main(String[] args) {
         int[] answers = {1, 3, 2, 4, 2};
 

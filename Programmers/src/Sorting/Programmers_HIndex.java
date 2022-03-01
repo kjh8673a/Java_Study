@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 */
 
-public class Programmers_42747 {
+public class Programmers_HIndex {
     public static void main(String[] args) {
         int[] array = {3, 0, 6, 1, 5};
 

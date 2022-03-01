@@ -13,7 +13,7 @@ import java.util.Queue;
 
 */
 
-public class Programmers_42583 {
+public class Programmers_TruckPassingBridge {
     public static void main(String[] args) {
         int[] truck_weights = { 7, 4, 5, 6 };
 

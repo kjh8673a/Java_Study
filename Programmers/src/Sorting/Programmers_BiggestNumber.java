@@ -13,7 +13,7 @@ https://st-lab.tistory.com/243
 
 */
 
-public class Programmers_42746 {
+public class Programmers_BiggestNumber {
     public String solution(int[] numbers) {
         String answer = "";
 

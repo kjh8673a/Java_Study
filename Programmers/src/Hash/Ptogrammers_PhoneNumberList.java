@@ -10,8 +10,11 @@ import java.util.HashMap;
 풀이)
 containsKey
 substring(0,j)
+
+hashset
+
 */
-public class Ptogrammers_42577 {
+public class Ptogrammers_PhoneNumberList {
     public static void main(String[] args) {
         String[] phone_book = {"12","123","1235","567","88"};
 

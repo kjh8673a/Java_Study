@@ -14,7 +14,7 @@ A B C D 라고하면 C D A B 순으로 출력된다
 
 
 */
-public class Programmers_42587 {
+public class Programmers_Printer {
 
     public static void main(String[] args) {
         int[] priorities = { 2, 1, 3, 2 };
