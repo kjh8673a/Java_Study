@@ -43,10 +43,19 @@ public class Programmers_ChangeWords {
     }
 
 
-    public int solution(String begin, String target, String[] words) {
+    public static int solution(String begin, String target, String[] words) {
         visited = new boolean[words.length];
 
         dfs(begin, target, words, 0);
         return answer;
+    }
+
+
+    public static void main(String[] args) {
+        String begin = "hit";
+        String target = "cog";
+        String[] words = {"hot", "cog", "dog", "lot", "log"};
+
+        System.out.println(solution(begin, target, words));
     }
 }

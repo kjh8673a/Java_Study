@@ -7,6 +7,8 @@ DFS/BFS
 풀이)
 dfs 재귀
 
+tickets -> [["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"], ["SFO", "ICN"], ["ICN", "AAA"]]
+return -> ["ICN", "ATL", "ICN", "SFO", "ATL", "SFO", "ICN", "AAA"]
 
 */
 public class Programmers_TravelRoute {
