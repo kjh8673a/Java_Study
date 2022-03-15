@@ -11,7 +11,10 @@ import java.util.Arrays;
 
 갈색 가로 - 2 = 노랑 가로
 갈색 세로 - 2 = 노랑 세로
-세로 < 가로
+
+갈색 >= 8
+노랑 >= 1
+가로 >= 세로
 */
 
 public class Programmers_Carpet {
